@@ -22,5 +22,5 @@ app.use("/auth", authRoutes);
 
 app.use("/auth", professorRoutes);
 
-const PORT = process.env.PORT || 6030;
+const PORT = process.env.PORT || 6050;
 app.listen(PORT, () => console.log(`Server running on port http://localhost:${PORT}`));
