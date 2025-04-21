@@ -1,0 +1,35 @@
+.main-container{
+width: 100vw;
+height:100vh;
+background-color: #FBFBFB;
+}
+
+.container {
+    
+   width: 100vw;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #D8EEDF; 
+    text-align: center;
+    margin-top: -1.59rem;
+    margin-left: -10px;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+  }
+  .para{
+    width: 50vw;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .paragraph {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  

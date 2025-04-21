@@ -13,9 +13,9 @@
 // main.jsx or main.tsx
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+import App from "./App.tsx";
 import { Provider } from "react-redux";
-import store from "./redux/store"; // <-- make sure this is your actual store file
+import { store } from "./redux/store"; // <-- make sure this is your actual store file
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
